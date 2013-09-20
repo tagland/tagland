@@ -1,0 +1,13 @@
+<table class="dump">
+<tr><td>Author[$author.ID];$author.FullName:$author.FamiliarName;</td></tr>
+<tr><td>websites:\{<br />
+    <table border='1' class="dumpInnerTable">
+    
+    #foreach $link in $author.Websites {
+     #set $description = $link.description
+     #set $url = $link.url
+     <tr><td>Link<a href="$url">$description</a> \[$url\]</td></tr>
+    }
+    </table>
+\}</td></tr></table>
+

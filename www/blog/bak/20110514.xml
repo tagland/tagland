@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet href="http://www.blogger.com/styles/atom.css" type="text/css"?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:georss='http://www.georss.org/georss' xmlns:thr='http://purl.org/syndication/thread/1.0'>
+  <id>tag:blogger.com,1999:blog-1976141257020946298</id>
+  <updated>2011-04-21T17:38:51.515-07:00</updated>
+  <title type='text'>In through the diorama</title>
+  <subtitle type='html'>a stream of thoughts, features, goals, and implementation ideas for navigating personal spaces in a connected metaverse.</subtitle>
+  <link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://inthroughthediorama.blogspot.com/feeds/posts/default' />
+  <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/1976141257020946298/posts/default' />
+  <link rel='alternate' type='text/html' href='http://inthroughthediorama.blogspot.com/' />
+  <link rel='hub' href='http://pubsubhubbub.appspot.com/' />
+  <author>
+    <name>Laramie Crocker</name>
+    <uri>http://www.blogger.com/profile/13171574722648945764</uri>
+    <email>noreply@blogger.com</email>
+  </author>
+  <generator version='7.00' uri='http://www.blogger.com'>Blogger</generator>
+  <openSearch:totalResults>9</openSearch:totalResults>
+  <openSearch:startIndex>1</openSearch:startIndex>
+  <openSearch:itemsPerPage>25</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1976141257020946298.post-9089956768083254351</id>
+    <published>2011-04-11T23:18:00.001-07:00</published>
+    <updated>2011-04-12T09:04:58.759-07:00</updated>
+    <title type='text'>Of Menus and Spaces</title>
+    <content type='html'>&lt;div&gt;Menus are hierarchical. Non-cyclic, they may contain aliases.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Menus are installed in a space. A menu is just a text file or collection of files, capable of
+    storing hierarchy structure, and all data and algorithms to invoke an action based on a command chosen in a context. &lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Multiple menus can live in one space. Menus can call each other in the same
+    space with a different security context than calling menus in other spaces.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;The context is in the space. The context may be a sandbox with a namespace of variables and commands. But that
+    context is in the space. &lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;The space is just data; can also be represented as a directory of files.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Ultimately a space lives in a JVM,
+    there is an uber-sandbox of Java class files to provide an API to the space, to the commands in the space.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;A space is data. These data can be closed and exported to another
+    machine.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;So very quickly we have the problem of synchronizing spaces.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Some spaces will be very data-centric, will be about storing data,
+    or metadata. Others will be more atuned to a user's desires. Data-centric spaces will have p2p, federated backup and sync, or publish-subscribe strategies for synchronization. The personalization spaces will have to follow the user more closely, e.g.
+    actually stored on user's person, e.g. cell phone sdcard. Or perhaps biometric or passphrase based user identification for opening a write session to a hosted space. Or maybe, spaces allow mulitple users to log in and change a space. So you log into
+    a space, and are perhaps simultaneously logged in to other spaces you need. Your master local session keeps track of these spaces, and marshalls data between spaces based on permissions.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;All
+    messages to menus, API objects, etc., use an XML payload input and output objects. The function name, plus the type (schema) of objects they require and return defines the API.&lt;/div&gt;&lt;div class="blogger-post-footer"&gt;&lt;img width='1'
+    height='1' src='https://blogger.googleusercontent.com/tracker/1976141257020946298-9089956768083254351?l=inthroughthediorama.blogspot.com' alt='' /&gt;&lt;/div&gt;</content>
+    <link rel='replies' type='application/atom+xml' href='http://inthroughthediorama.blogspot.com/feeds/9089956768083254351/comments/default' title='Post Comments' />
+    <link rel='replies' type='text/html' href='http://inthroughthediorama.blogspot.com/2011/04/of-menus-and-spaces.html#comment-form' title='0 Comments' />
+    <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/1976141257020946298/posts/default/9089956768083254351' />
+    <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/1976141257020946298/posts/default/9089956768083254351' />
+    <link rel='alternate' type='text/html' href='http://inthroughthediorama.blogspot.com/2011/04/of-menus-and-spaces.html' title='Of Menus and Spaces' />
+    <author>
+      <name>Laramie Crocker</name>
+      <uri>http://www.blogger.com/profile/13171574722648945764</uri>
+      <email>noreply@blogger.com</email>
+      <gd:extendedProperty xmlns:gd='http://schemas.google.com/g/2005' name='OpenSocialUserId' value='08696956980219785916' />
+    </author>
+    <thr:total>0</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1976141257020946298.post-5485090142752219386</id>
+    <published>2011-03-24T08:15:00.000-07:00</published>
+    <updated>2011-03-24T08:23:20.990-07:00</updated>
+    <title type='text'>Links to Java projects that might help</title>
+    <content type='html'>&lt;span style="font-weight:bold;"&gt;Which4j&lt;/span&gt;&lt;br /&gt;I wrote one of these for Vestek, but this might be useful, seeing how it is open source. Anyway, it is nice to have a utility which tells you in which location
+    on your classpath a java Class is actually found.&lt;br /&gt;&lt;a href="http://java.net/projects/which4j"&gt; http://java.net/projects/which4j&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;span style="font-weight:bold;"&gt;TrueZip&lt;/span&gt;&lt;br
+    /&gt;This is the bomb. Archives as federated filesystems. (Zip, tar, jar, etc.) This will be needed by diorama for dealing with personal spaces. My concept of Spaces is to mount a jar file, then write to it, then unmount and share it, with whatever
+    level of encryption. Your project's tips-n-tricks, help files, etc., would be in a public space. Your contacts would be in a private, encrypted space. Then those spaces get sync'd through your server/account, and shared as appropriate. This library,
+    TrueZip, looks perfect for the implementation because it handles multithreaded access to the archive at runtime.&lt;br /&gt;&lt;a href="http://java.net/projects/truezip"&gt; http://java.net/projects/truezip&lt;/a&gt;&lt;div
+    class="blogger-post-footer"&gt;&lt;img width='1' height='1' src='https://blogger.googleusercontent.com/tracker/1976141257020946298-5485090142752219386?l=inthroughthediorama.blogspot.com' alt='' /&gt;&lt;/div&gt;</content>
+    <link rel='replies' type='application/atom+xml' href='http://inthroughthediorama.blogspot.com/feeds/5485090142752219386/comments/default' title='Post Comments' />
+    <link rel='replies' type='text/html' href='http://inthroughthediorama.blogspot.com/2011/03/links-to-java-projects-that-might-help.html#comment-form' title='0 Comments' />
+    <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/1976141257020946298/posts/default/5485090142752219386' />
+    <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/1976141257020946298/posts/default/5485090142752219386' />
+    <link rel='alternate' type='text/html' href='http://inthroughthediorama.blogspot.com/2011/03/links-to-java-projects-that-might-help.html' title='Links to Java projects that might help' />
+    <author>
+      <name>Laramie Crocker</name>
+      <uri>http://www.blogger.com/profile/13171574722648945764</uri>
+      <email>noreply@blogger.com</email>
+      <gd:extendedProperty xmlns:gd='http://schemas.google.com/g/2005' name='OpenSocialUserId' value='08696956980219785916' />
+    </author>
+    <thr:total>0</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1976141257020946298.post-2788828899456692694</id>
+    <published>2011-02-28T10:33:00.000-08:00</published>
+    <updated>2011-02-28T14:05:25.412-08:00</updated>
+    <title type='text'>My PowerMac is now a $4000 brick</title>
+    <content type='html'>I just tried to install Java 1.6 (i.e. Java 6) on my 4 processor PowerMac, after having followed the instructions and paid $150 for a new MacOS Leopard 1.5.6 Operating System, and applied all the updates up to 1.5.8 in order,
+    including all the Java updates from Apple. "Oooooooooh Sooorry, you can't run Java 6 because *you don't have an Intel processor!*" What!? &lt;br /&gt;&lt;br /&gt;Without Java, my Mac is good for running ProTools, which I do. But without Java, I can
+    not do the work that I get paid to do, which is to be a Java programmer. So this machine is useless if I want to use it for work. But also, any Java app written since 2008 has the right to rely on Java 6. So a whole raft of applications can't be
+    deployed on a PowerPC-based Mac.&lt;br /&gt;&lt;br /&gt;Now hold on, you say. Your PowerMac G5 is 6 years old! (Never mind that Java 6 was released the same year my G5 was.) But, I say, you haven't looked inside this machine. It easily cost twice
+    what commodity hardware would have cost me at the time I bought it. It is made from machined aluminum. It has a liquid cooled core with a radiator. It has machined, well-designed, beautiful, expensive parts. This machine was built to last twenty
+    years if you keep the dust out of it. And Apple built a reputation on backwards compatibility and support. Well that's all gone now, it seems. They are playing the same game Microsoft is: every two to three years you should buy a new Mac, preferably
+    in the $3,000 - $4,000 range. Because it's better hardware. It will outlast your crappy Dell which dies after two years because of crappy, proprietary power sub-sytems. But what does it matter if the hardware lasts, if the OS doesn't get
+    upgraded?&lt;br /&gt;&lt;br /&gt;Also, as I see it, I can not now use my PowerMac if I want to use the best programming language in the world, that is widely accepted, and may be one of the languages that we could have standardized on. Except
+    everyone wants to kill Java. Microsoft wanted to kill it so much that they intentionally broke their own implementation, and wrote a competing look-alike language, with the help of a hired gun: Anders Hejlsberg, the designer of Delphi from Borland,
+    who contributed in a big way to the Java component model. Oracle wants to kill Java, too. They wanted to kill it so badly, they bought it along with Sun Microsystem, and made it even more proprietary than Sun had. Oracle allows us a quasi-open-source
+    solution called OpenJDK which will build on Linux, but is a time-lag from the main development line. This appeases folks, and is mosly available and free, but it means they retain control. What the world needs is an open source language as robust,
+    secure, mature, fast, and good as Java, that is not owned by any for-profit-corporate entity.&lt;br /&gt;&lt;br /&gt;Mac wanted to kill Java so badly, they insisted that no one else could build Java for the Mac. Then they don't release security
+    updates when the fixes are available. Then they decide to not support Java 6 on non-Intel macs. The tech support lady, when I asked her if I now had a $4000 brick, said that if I wanted to run Java 6 that I'd need to upgrade my entire system to
+    Intel. Since when is buying a new machine called "upgrading?" &lt;br /&gt;&lt;br /&gt;Then there's Apple's refusal to distribute Java on the iPhone. Tiny devices that are intermittently connected to network are what Java was designed for. Most phones
+    have Java. The Android phones are making a smashing success using Java. So why doesn't Apple want to support Java on their phone?&lt;br /&gt;&lt;br /&gt;So why do I claim that everyone wants to kill Java? I don't have a smoking gun, just this: if you
+    have Java, it's one step closer to not needing a branded operating system. Java is a system you can run on a computer that will run many kinds of applications, and replaces many core operating system features. And does it in a particularly
+    device-independent, OS-independent, network-aware way. &lt;br /&gt;&lt;br /&gt;But you can't make money selling operating systems that don't have some sex appeal, and you can't have sex appeal without branding. So coming up with 5 new apps that flip
+    pages in 3D is more important than providing security updates and version updates to core frameworks. Especially if those frameworks don't have happy little nibbled apple cores floating in a rotating 3D purple-starred galaxy.&lt;br /&gt;&lt;br
+    /&gt;So the Hell with Apple, and Microsoft and Larry Ellison. Software moves too fast for maturity. That's not Larry's fault. It's just that Larry, Bill, and Steve know this and have figured out how to make money on this mayhem.&lt;div
+    class="blogger-post-footer"&gt;&lt;img width='1' height='1' src='https://blogger.googleusercontent.com/tracker/1976141257020946298-2788828899456692694?l=inthroughthediorama.blogspot.com' alt='' /&gt;&lt;/div&gt;</content>
+    <link rel='replies' type='application/atom+xml' href='http://inthroughthediorama.blogspot.com/feeds/2788828899456692694/comments/default' title='Post Comments' />
+    <link rel='replies' type='text/html' href='http://inthroughthediorama.blogspot.com/2011/02/my-powermac-is-now-4000-brick.html#comment-form' title='1 Comments' />
+    <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/1976141257020946298/posts/default/2788828899456692694' />
+    <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/1976141257020946298/posts/default/2788828899456692694' />
+    <link rel='alternate' type='text/html' href='http://inthroughthediorama.blogspot.com/2011/02/my-powermac-is-now-4000-brick.html' title='My PowerMac is now a $4000 brick' />
+    <author>
+      <name>Laramie Crocker</name>
+      <uri>http://www.blogger.com/profile/13171574722648945764</uri>
+      <email>noreply@blogger.com</email>
+      <gd:extendedProperty xmlns:gd='http://schemas.google.com/g/2005' name='OpenSocialUserId' value='08696956980219785916' />
+    </author>
+    <thr:total>1</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1976141257020946298.post-2230672976907258479</id>
+    <published>2010-11-16T18:40:00.000-08:00</published>
+    <updated>2010-11-16T14:49:11.515-08:00</updated>
+    <title type='text'>Visualization Links</title>
+    <content type='html'>Researching visualization software. What we will need for viewing object graphs and tree-structured data. Looks like there are some open source projects that ride on top of Java 2D, and provide visualization features such as
+    layers, zooming, and panning. There are some open source apps built on top of the framework, so customizing may be straightforward.&lt;br /&gt;&lt;br /&gt;This chemical model visualizer: &lt;a
+    href="http://sali.rguha.net/"&gt;http://sali.rguha.net/&lt;/a&gt; depends on the object graph visualizer: &lt;a href="http://www.graphviz.org/"&gt;http://www.graphviz.org/&lt;/a&gt; which rides on this open source ZVTM project: &lt;a
+    href="http://zvtm.sourceforge.net/"&gt;http://zvtm.sourceforge.net/&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;The idea would be to have 2D, layered, multi-zoom interface into the trees of the tagonomy, so that tagonomies become visually recognizable and
+    explorable spaces.&lt;div class="blogger-post-footer"&gt;&lt;img width='1' height='1' src='https://blogger.googleusercontent.com/tracker/1976141257020946298-2230672976907258479?l=inthroughthediorama.blogspot.com' alt='' /&gt;&lt;/div&gt;</content>
+    <link rel='replies' type='application/atom+xml' href='http://inthroughthediorama.blogspot.com/feeds/2230672976907258479/comments/default' title='Post Comments' />
+    <link rel='replies' type='text/html' href='http://inthroughthediorama.blogspot.com/2010/11/visualization-links.html#comment-form' title='0 Comments' />
+    <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/1976141257020946298/posts/default/2230672976907258479' />
+    <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/1976141257020946298/posts/default/2230672976907258479' />
+    <link rel='alternate' type='text/html' href='http://inthroughthediorama.blogspot.com/2010/11/visualization-links.html' title='Visualization Links' />
+    <author>
+      <name>Laramie Crocker</name>
+      <uri>http://www.blogger.com/profile/13171574722648945764</uri>
+      <email>noreply@blogger.com</email>
+      <gd:extendedProperty xmlns:gd='http://schemas.google.com/g/2005' name='OpenSocialUserId' value='08696956980219785916' />
+    </author>
+    <thr:total>0</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1976141257020946298.post-2637666397068498821</id>
+    <published>2010-11-11T19:20:00.000-08:00</published>
+    <updated>2010-11-11T19:31:04.538-08:00</updated>
+    <category scheme='http://www.blogger.com/atom/ns#' term='spaces' />
+    <category scheme='http://www.blogger.com/atom/ns#' term='diorama' />
+    <category scheme='http://www.blogger.com/atom/ns#' term='context' />
+    <category scheme='http://www.blogger.com/atom/ns#' term='eclipse' />
+    <category scheme='http://www.blogger.com/atom/ns#' term='space' />
+    <category scheme='http://www.blogger.com/atom/ns#' term='taxonomy' />
+    <category scheme='http://www.blogger.com/atom/ns#' term='Property Sheet' />
+    <category scheme='http://www.blogger.com/atom/ns#' term='java bean introspection' />
+    <category scheme='http://www.blogger.com/atom/ns#' term='tagonomy' />
+    <category scheme='http://www.blogger.com/atom/ns#' term='menu' />
+    <title type='text'>Tagland on sourceforge.net</title>
+    <content type='html'>Please visit &lt;a href="http://tagland.sourceforge.net/"&gt;tagland.sourceforge.net&lt;/a&gt; to check out the source code for tagland. Under current development are some of the ideas sketched out in previous posts.
+    Specifically, I've got a PropertyPage system working which allows you to view and edit Java Bean properties on any java.lang.Object. This will plug into the tagland command-line menu system to edit the &lt;a
+    href="http://Anarchia.us"&gt;Anarchia.us&lt;/a&gt; domain objects, similar to how &lt;a href="http://www.nakedobjects.org/"&gt;NakedObjects&lt;/a&gt; does it, but much, much simpler.&lt;br /&gt;&lt;br /&gt;These are baby-steps, but it demonstrates my
+    bottom-up, Managing Simplicity&lt;sup&gt;TM&lt;/sup&gt;, &lt;a href="http://laramiecrocker.com/writing/cdc/cdc-overview.html"&gt;CDC&lt;/a&gt; approach. I'd love to hear your comments and contributions. Please feel free to join the sourceforge
+    project &lt;a href="http://sourceforge.net/project/memberlist.php?group_id=352315"&gt;here&lt;/a&gt;.&lt;div class="blogger-post-footer"&gt;&lt;img width='1' height='1'
+    src='https://blogger.googleusercontent.com/tracker/1976141257020946298-2637666397068498821?l=inthroughthediorama.blogspot.com' alt='' /&gt;&lt;/div&gt;</content>
+    <link rel='replies' type='application/atom+xml' href='http://inthroughthediorama.blogspot.com/feeds/2637666397068498821/comments/default' title='Post Comments' />
+    <link rel='replies' type='text/html' href='http://inthroughthediorama.blogspot.com/2010/11/tagland-on-sourceforgenet.html#comment-form' title='0 Comments' />
+    <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/1976141257020946298/posts/default/2637666397068498821' />
+    <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/1976141257020946298/posts/default/2637666397068498821' />
+    <link rel='alternate' type='text/html' href='http://inthroughthediorama.blogspot.com/2010/11/tagland-on-sourceforgenet.html' title='Tagland on sourceforge.net' />
+    <author>
+      <name>Laramie Crocker</name>
+      <uri>http://www.blogger.com/profile/13171574722648945764</uri>
+      <email>noreply@blogger.com</email>
+      <gd:extendedProperty xmlns:gd='http://schemas.google.com/g/2005' name='OpenSocialUserId' value='08696956980219785916' />
+    </author>
+    <thr:total>0</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1976141257020946298.post-1412489590453160568</id>
+    <published>2010-08-06T00:19:00.000-07:00</published>
+    <updated>2010-08-06T03:15:22.226-07:00</updated>
+    <category scheme='http://www.blogger.com/atom/ns#' term='spaces' />
+    <category scheme='http://www.blogger.com/atom/ns#' term='diorama' />
+    <category scheme='http://www.blogger.com/atom/ns#' term='context' />
+    <category scheme='http://www.blogger.com/atom/ns#' term='space' />
+    <category scheme='http://www.blogger.com/atom/ns#' term='taxonomy' />
+    <category scheme='http://www.blogger.com/atom/ns#' term='tagonomy' />
+    <category scheme='http://www.blogger.com/atom/ns#' term='menu' />
+    <category scheme='http://www.blogger.com/atom/ns#' term='diorama tagonomy' />
+    <title type='text'>Nail 2.0</title>
+    <content type='html'>I live in Berkeley. Most of the houses here pre-date me. Almost all are built with wooden frames, which means almost all were built using nails. Imagine, if you haven't already, that the Naitional Nail Authority has issued Nail
+    2.0. Immediately, however, a bug in the Nail 2.0 implementation causes the underlying Nail 1.0 implementation to AB-END and fail to build. So immediately, of course, all Nail 1.0 and later spec nails cease to exist. So 95% of the houses in Berkely
+    immediately fall over, and the town looks like the last little pig was smart after all, until owning a nice brick home in a town of wooden houses all broken up with gas lines open all over the place starts to seem like a really bad idea. &lt;br
+    /&gt;&lt;br /&gt;This kind of Scorched Earth vision was all the rage in the last part of 1999. I was working in Financial Services doing portfolio analytics server-side in Java with a legacy back end of millions of lines of FORTRAN code. So we didn't
+    sweat the Y2K bug at all -- financial analytics really have to be able to go way into the future for Bonds and what-ifs, so the system had always been written to handle Y2K dates. But I remember thinking that if the EastBayMUD servers, which I had
+    toured, and were highly COBOLized, were to crash, then for a few days we might not have water. Though more likely was just an EBMUD water bill for a century's worth of water.&lt;br /&gt;&lt;br /&gt;So why don't houses fall down when they issue a new
+    nail? Because objects in the real world are manufactured, and then installed and left there with no dependencies. Having a build system is a luxury deployed by just about every software shop, and so is having developers who use version control, test
+    suites, etc. Yet, when we build software, we don't package everything up and ship appliances. We ship tiny bits of code that depend on lots of other code. And our bits of code were made by the interaction of thousands of other littler bits of code.
+    And we send all our little pieces, with all their dependencies on pieces that we don't ship, out in their little boats. Sorry, lost the house metaphor for a boat reference. But I like the imagery of it.&lt;br /&gt;&lt;br /&gt;In the dot-com binge, my
+    brother and I started ToasterWorks.com and designed what is now called Cloud Computing. We designed, coded, networked, prototyped, and documented most of, say, what you can get from Amazon EC2. My brother worked on selling it to Dell, Compaq, and
+    some large ISPs. We got really close, but we got beaten to market by several competitors. &lt;br /&gt;&lt;br /&gt;I knew going into it that the ideas I had were the result of being in a computer geek zietgiest that probably included about 2 million
+    really sharp minds. I knew there would be lots of others with identical startups, because appliances had already busted out, and linx had GUI terminal servers, so the concept of provisioning a blade at boot time with a networked version-controlled
+    repository of boot images and large data mounts seemed like the way to go since it was clear that big iron would make some kind of comeback. I was also working then on designing web services so that all our virtualized boxes could have very simple
+    duties and just network their messages back and forth. But like I said, that's no boast--lots of people were all scratching their heads and thinking about the future and how it might be manageable with all these dang Linux boxes stacked in the server
+    room and all these dang software pieces.&lt;br /&gt;&lt;br /&gt;So now we have Cloud Computing and we have Web Services. But we are still missing some of the things on my wish list.&lt;br /&gt;&lt;br /&gt;Real packaging. You get the immutable bits
+    that will work. All of them.&lt;br /&gt;You can still have a build system for assembling and testing these beasts. But don't expect users to have a build system that can handle your kruft. &lt;br /&gt;&lt;br /&gt;Simple communication.&lt;br /&gt;All
+    text communication. &lt;br /&gt;Bi-directional communication supported, and one-way messaging is preferred.&lt;br /&gt;To implement this today, I'm thinking: XML messaging. XML file formats. Use schemae and attach them to the document. These all seem
+    viable and established now. &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Real interfaces. Typed, inheriting, globally known, versioned, assembled interfaces. (Possible with things like XML messaging and JSON. But also perhaps with sending objects
+    around.)&lt;br /&gt; &lt;br /&gt;Come up with some kind of object that can be sent around the network and stored and versioned and transformed, round-trip, to text and back. Java does this, and it plays well with real object databases. I suspect
+    Javascript could do this well, too, as my brilliant friend Brian hipped me to, but he said he detests blog technology, so I guess I shouldn't link to him. Anyway, he says it's totally doable, and folks are doing it. &lt;br /&gt;&lt;br /&gt;But I
+    haven't had too much time to see what is up in the javascript-as-object-nirvana world, since I am happy as a clam since I got the schema for the &lt;a href="http://Anarchia.us"&gt;anarchia.us&lt;/a&gt; objects coded in Java and stored in &lt;a
+    href="http://www.db4o.com/"&gt;db40&lt;/a&gt; and accessed with the rudiments of Retro (my command-line framework) working on my laptop. Java objects. Simple. Not "Value Objects," but POJOs. Properties, collections, relationships--all store nicely in
+    &lt;a href="http://www.db4o.com/"&gt;db40&lt;/a&gt;. And I'm not doing any kruft. No annotations, no JAXB, no mapping file, no injection, no nothing. &lt;br /&gt;&lt;br /&gt;I'll put up the source very soon, and design docs. For now, please read the
+    other posts in this blog to see where I'm hoping to go.&lt;div class="blogger-post-footer"&gt;&lt;img width='1' height='1' src='https://blogger.googleusercontent.com/tracker/1976141257020946298-1412489590453160568?l=inthroughthediorama.blogspot.com'
+    alt='' /&gt;&lt;/div&gt;</content>
+    <link rel='replies' type='application/atom+xml' href='http://inthroughthediorama.blogspot.com/feeds/1412489590453160568/comments/default' title='Post Comments' />
+    <link rel='replies' type='text/html' href='http://inthroughthediorama.blogspot.com/2010/08/nail-20.html#comment-form' title='0 Comments' />
+    <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/1976141257020946298/posts/default/1412489590453160568' />
+    <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/1976141257020946298/posts/default/1412489590453160568' />
+    <link rel='alternate' type='text/html' href='http://inthroughthediorama.blogspot.com/2010/08/nail-20.html' title='Nail 2.0' />
+    <author>
+      <name>Laramie Crocker</name>
+      <uri>http://www.blogger.com/profile/13171574722648945764</uri>
+      <email>noreply@blogger.com</email>
+      <gd:extendedProperty xmlns:gd='http://schemas.google.com/g/2005' name='OpenSocialUserId' value='08696956980219785916' />
+    </author>
+    <thr:total>0</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1976141257020946298.post-4078050863325074031</id>
+    <published>2010-06-16T13:35:00.000-07:00</published>
+    <updated>2010-11-11T20:00:47.874-08:00</updated>
+    <category scheme='http://www.blogger.com/atom/ns#' term='diorama tagonomy' />
+    <title type='text'>A day in the life in diorama</title>
+    <content type='html'>Let me tell you how I work.&lt;br /&gt;&lt;br /&gt;I keep all my documents in a hierarchy of folders.&lt;br /&gt;The folders are all named tersely, but human-readable and obvious.&lt;br /&gt;I put files together that are in
+    related projects.&lt;br /&gt;&lt;br /&gt;I maintain this hierarchy of folders in CVS, which allows me to archive it, along with dated versions of everything I add or change in the hierarchy.&lt;br /&gt;I buy time on a cloud server and run several
+    processes, one of which stores my hierarchy, in sync, archived.&lt;br /&gt;&lt;br /&gt;My data are protected by industry standard security which would be good enough protection against any except the highest level hackers with access to large compute
+    clouds (e.g. the government).&lt;br /&gt;&lt;br /&gt;OK. Everything above is factual, extant, and uses existing open source technology. Everything that follows in this post is a dream, combining how I work, and new, open source software to model and
+    automate what I now do manually, and what I cannot currently do, but wish I could do.&lt;br /&gt;&lt;br /&gt;In addition to this hierarchical, archiving, versioning, distributed file system, I maintain my metadata in a system called Diorama. Diorama
+    stores all the information about my files, and maintains this as a context that can be searched, executed in, added to. I can choose to add new items to my own Diorama-run file system, or I can add new items that are stored out in the cloud, in which
+    case Diorama simply stores the URL and any metadata that get associated with that document. I use the Diorama-run file system for text and small images, and remote storage for larger, binary files. You could use any file system you want, and just
+    have Diorama maintain metadata and indices to documents only.&lt;br /&gt;&lt;br /&gt;In addition to tags and categories, where you were in the context at the time of document status change, can be saved in the metadata as well (if you allow your
+    context history to be saved in metadata or metadata links to your context history database). Diorama uses hierarchies of tags as categories, with paths, in "tagonomies", or, tag-based taxonomies. The taxonomies are only suggested, and there are so
+    many aliases, mispellings, case-changes, that they cannot be said to be purely concrete taxonomies, since they don't root together in a particularly organized or distinct way, and in many ways are really graphs. But Diorama soldiers on through the
+    aliasing process, until small set of commands and small set of paths are what I work with most of the time, and those paths and commands become familiar to me and to Diorama, so they become quicker to execute in the command shell.&lt;br /&gt;&lt;br
+    /&gt;Since I work mostly through Diorama, everything I do is stored in my personal command history database. It is indexed by time. Documents and remote processes can link to the exact time I executed something, and for API calls inbound, any Diorama
+    context I was logged into can always return its local timestamp, so that the history data are kept local, but can be indexed by request in the future.&lt;br /&gt;&lt;br /&gt;Any time I am using Diorama, I get to keep history. So this works regardless
+    of where I log in from. The history data are kept in my Diorama distributed database.&lt;br /&gt;&lt;br /&gt;The Diorama command line is simply a command line environment that has a display area that can show menus of commands, pictures, web pages,
+    etc. Diorama has a context area that shows information about the context you are in. Menus, commands, resources, shortcuts, notes, etc. You execute commands to open documents, take actions like send mail, create content, publish, and subscribe.&lt;br
+    /&gt;&lt;br /&gt;The context area shows you the tagonomy of where you are, and also the tagonomies of any document you have open, etc. So for this page I might see&lt;br /&gt;"docs/dioramaBlog" or "projects/diorama/blogs/InThroughTheDioram". You can
+    tag anything with these path tags (the character I use is a / but you could use anything, such as "projects :: blogs :: In through the diorama"). The system treats things in the path as parent contexts, and learns about how you categorize things this
+    way. It starts suggesting context paths, for example. The system also does quite a bit of aliasing, phonic checking, and case-insensitivity.&lt;br /&gt;&lt;br /&gt;Diorama also has a context area that shows you where you are in the web of contexts.
+    Most of the contexts you will spend time in are yours, like your home directory, or directories of projects you are working on. But you stay in these contexts in multiple windows, and can switch contexts with the keyboard, while still in command mode
+    on the command line. It's very much like being in emacs, sending mail. But it is very menu driven and simple, obvious, and fast. But you will be able to visit contexts of others. You will be invited to join these contexts, because a person on the
+    other end knows you somehow. The system is based, just like human interaction in the offline world, on trust. Most people don't trust pimps, hookers, or car salesmen, but in fact these people are at least honest about their game. Still, when you go
+    to hang out in the park with your best girl, you don't want pimps there, and when you go have a drink with your friends, you don't want a used car salesman standing over your table like a drunken mariachi. So Diorama has no ads. And everyone you run
+    into, or whom you allow access to, is known to you.&lt;div class="blogger-post-footer"&gt;&lt;img width='1' height='1' src='https://blogger.googleusercontent.com/tracker/1976141257020946298-4078050863325074031?l=inthroughthediorama.blogspot.com'
+    alt='' /&gt;&lt;/div&gt;</content>
+    <link rel='replies' type='application/atom+xml' href='http://inthroughthediorama.blogspot.com/feeds/4078050863325074031/comments/default' title='Post Comments' />
+    <link rel='replies' type='text/html' href='http://inthroughthediorama.blogspot.com/2010/06/day-in-life-in-diorama.html#comment-form' title='0 Comments' />
+    <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/1976141257020946298/posts/default/4078050863325074031' />
+    <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/1976141257020946298/posts/default/4078050863325074031' />
+    <link rel='alternate' type='text/html' href='http://inthroughthediorama.blogspot.com/2010/06/day-in-life-in-diorama.html' title='A day in the life in diorama' />
+    <author>
+      <name>Laramie Crocker</name>
+      <uri>http://www.blogger.com/profile/13171574722648945764</uri>
+      <email>noreply@blogger.com</email>
+      <gd:extendedProperty xmlns:gd='http://schemas.google.com/g/2005' name='OpenSocialUserId' value='08696956980219785916' />
+    </author>
+    <thr:total>0</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1976141257020946298.post-2497288898251627371</id>
+    <published>2010-06-13T15:03:00.000-07:00</published>
+    <updated>2010-06-13T16:26:10.599-07:00</updated>
+    <category scheme='http://www.blogger.com/atom/ns#' term='diorama' />
+    <title type='text'>Tagonomy Display; features; attributes of tagonomies</title>
+    <content type='html'>See also: &lt;a href="http://inthroughthediorama.blogspot.com/2010/06/why-diorama-why-now-and-what-is-diorama.html"&gt;Why diorama?&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Supposing that we have a definition of a tagonomy
+    (elements, paths, relationships, aliases, semantic meaning versus object storage), then we can display them.&lt;br /&gt;&lt;br /&gt;I have two user-interface rules that apply here: 1) information for navigating the system should be accessible and
+    distinguished; 2) the signal-to-noise ratio should be very high.&lt;br /&gt;&lt;br /&gt;For visualization, imagine you are wandering around in a world of your favorite zero-information background, and in front of you are high-information tokens, and
+    around you are related token which could be useful if you wish to move towards them. I could see this as a virtual reality walk through a park with some avatars, etc. But for the current proposal, let me have you visualize something a bit more
+    IBM-Gothic.&lt;br /&gt;&lt;br /&gt;For Retro, you have a lovely black background, and words in pleasing fonts and readable, gay greens and yellows and whites (or whatever color stylesheet turns you on) get closer and farther away as you get close to
+    them semantically, so that you see the word "eMail" in bright green letters, and it is significant. Or, if you are in the middle of navigation or choosing items from a menu, these are the only objects/words/pictures that are really highlighted and
+    green.&lt;br /&gt;&lt;br /&gt;In this space, we are navigating the metadata, the context. We are not storing the objects, we are providing all the information about the objects, the relationships.&lt;br /&gt;&lt;br /&gt;- by year&lt;br /&gt; - big
+    font for years&lt;br /&gt; - project inception dates, meeting person dates, most highlighted/visited/priority get biggest font&lt;br /&gt; - by category&lt;br /&gt;- by priority&lt;br /&gt;- by tagonomy and by date as layers&lt;br /&gt;&lt;br
+    /&gt;Above a certain size, every object in the space, with its own representation gets its representative node to bump its display size. So each folder in the space has a template or stylesheet that exports size displays.&lt;br /&gt;&lt;br
+    /&gt;Displays for an object in a tagonomy:&lt;br /&gt;&lt;ul&gt;&lt;li&gt;At very small, it is just a word.&lt;/li&gt;&lt;li&gt;Next, it is a series of words, and maybe an icon, if icon display layer is on.&lt;/li&gt;&lt;li&gt;Next, it becomes a
+    description paragraph, extract, abstract, with picture, like an article or summary.&lt;br /&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;See also:&lt;br /&gt;&lt;a
+    href="http://inthroughthediorama.blogspot.com/2010/06/why-diorama-why-now-and-what-is-diorama.html"&gt;Why diorama? Why now? And what is diorama anyway?&lt;/a&gt;&lt;div class="blogger-post-footer"&gt;&lt;img width='1' height='1'
+    src='https://blogger.googleusercontent.com/tracker/1976141257020946298-2497288898251627371?l=inthroughthediorama.blogspot.com' alt='' /&gt;&lt;/div&gt;</content>
+    <link rel='replies' type='application/atom+xml' href='http://inthroughthediorama.blogspot.com/feeds/2497288898251627371/comments/default' title='Post Comments' />
+    <link rel='replies' type='text/html' href='http://inthroughthediorama.blogspot.com/2010/06/tagonomy-display-features-attributes-of.html#comment-form' title='0 Comments' />
+    <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/1976141257020946298/posts/default/2497288898251627371' />
+    <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/1976141257020946298/posts/default/2497288898251627371' />
+    <link rel='alternate' type='text/html' href='http://inthroughthediorama.blogspot.com/2010/06/tagonomy-display-features-attributes-of.html' title='Tagonomy Display; features; attributes of tagonomies' />
+    <author>
+      <name>Laramie Crocker</name>
+      <uri>http://www.blogger.com/profile/13171574722648945764</uri>
+      <email>noreply@blogger.com</email>
+      <gd:extendedProperty xmlns:gd='http://schemas.google.com/g/2005' name='OpenSocialUserId' value='08696956980219785916' />
+    </author>
+    <thr:total>0</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-1976141257020946298.post-4216753250026575336</id>
+    <published>2010-06-13T14:50:00.000-07:00</published>
+    <updated>2010-06-16T17:59:01.069-07:00</updated>
+    <category scheme='http://www.blogger.com/atom/ns#' term='tagonomy diorama taxonomy spaces space context menu' />
+    <title type='text'>Why diorama? Why now? And what is diorama anyway?</title>
+    <content type='html'>VoodooPad was *almost* the right application.&lt;br /&gt;&lt;br /&gt;Lotus 1-2-3 was almost the right interface for a very right application.&lt;br /&gt;&lt;br /&gt;WordPerfect 5.1 was the right interface, but it was only a word
+    processor.&lt;br /&gt;&lt;br /&gt;The right interface is a command-line, with a menu, and a display.&lt;br /&gt;It's not that we evolved past the command line; it is that we failed to evolve the command-line.&lt;br /&gt;&lt;br /&gt;The modern
+    interface is retro.&lt;br /&gt;&lt;br /&gt;Retro :: a command line interface ...&lt;br /&gt;&lt;ul&gt;&lt;br /&gt;&lt;li&gt;that connects you to all personal data, projects, thoughts&lt;br /&gt; and remembers where you put things&lt;/li&gt;&lt;br
+    /&gt;&lt;li&gt;that connects you to real people you know&lt;br /&gt; and no one else gets to look at that information&lt;br /&gt; and you don't look at any ads.&lt;/li&gt;&lt;br /&gt;&lt;li&gt;that lets you categorize, file, and find things
+    naturally&lt;br /&gt;in a system that matches how we think and ask questions&lt;br /&gt;and not at what is most efficient for the computer or designers&lt;br /&gt;of input forms or advertisers.&lt;br /&gt;&lt;/li&gt;&lt;br /&gt;&lt;/ul&gt;&lt;br
+    /&gt;&lt;br /&gt;The new interface is mostly non-information. The information sticks out because it is information.&lt;br /&gt;&lt;br /&gt;There are no ads to masquerade as information. The menus can be navigated by picture, text or both.&lt;br
+    /&gt;&lt;br /&gt;Each menu level is a space, it remembers when you were in the space last, your preferences, etc.&lt;br /&gt;&lt;br /&gt;If you are invited into the space, or it's your space, then you can run certain menu items in that space, such as
+    checking eMail, messages, comments, etc. Other spaces might be discussion forums just for people who are invited into that space. You also have public spaces. These get mapped to HTML for delivery on the WWW.&lt;br /&gt;&lt;br /&gt;You can set up
+    scripts and commands at each menu, in each space.&lt;br /&gt;&lt;br /&gt;You can link to data storage for any document that has a valid URL.&lt;br /&gt;&lt;br /&gt;You can write notes anywhere in the system and tag them with any tag, alias, or
+    path.&lt;br /&gt;&lt;br /&gt;There are some global tags (always on your shortlist) that get you to buckets, or inboxes.&lt;br /&gt;&lt;br /&gt;These are tags like "soon" and "todo" and "high priority" or "ideas". These are simply your most used tags,
+    and also tags that map to some future search or workflow.&lt;br /&gt;&lt;br /&gt;Ultimately, this system should be used to run tagonomy and &lt;a href="http://anarchia.us/"&gt;anarchia&lt;/a&gt;. Anarchia is a social network built around interactions
+    with people as artists. Each person connects to another's art/expression by linking themselves, or to a specific piece of art.&lt;br /&gt;&lt;br /&gt;We are about breaking down the definition of artist. Everyone is an artist. Art is the expression of
+    ourselves and our experience through a medium to another person. It is successful art if it conveys expression better than the workaday ways we have to communicate and be understood.&lt;br /&gt;&lt;br /&gt;Some names for this stuff:&lt;br
+    /&gt;&lt;ul&gt;&lt;li&gt; Retro&lt;/li&gt;&lt;li&gt;TagLand&lt;/li&gt;&lt;li&gt;diorama&lt;/li&gt;&lt;li&gt;Tagonomy&lt;br /&gt;&lt;/li&gt;&lt;/ul&gt;See also: &lt;a
+    href="http://inthroughthediorama.blogspot.com/2010/06/tagonomy-display-features-attributes-of.html"&gt;Tagonomy Display&lt;/a&gt;&lt;div class="blogger-post-footer"&gt;&lt;img width='1' height='1'
+    src='https://blogger.googleusercontent.com/tracker/1976141257020946298-4216753250026575336?l=inthroughthediorama.blogspot.com' alt='' /&gt;&lt;/div&gt;</content>
+    <link rel='replies' type='application/atom+xml' href='http://inthroughthediorama.blogspot.com/feeds/4216753250026575336/comments/default' title='Post Comments' />
+    <link rel='replies' type='text/html' href='http://inthroughthediorama.blogspot.com/2010/06/why-diorama-why-now-and-what-is-diorama.html#comment-form' title='1 Comments' />
+    <link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/1976141257020946298/posts/default/4216753250026575336' />
+    <link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/1976141257020946298/posts/default/4216753250026575336' />
+    <link rel='alternate' type='text/html' href='http://inthroughthediorama.blogspot.com/2010/06/why-diorama-why-now-and-what-is-diorama.html' title='Why diorama? Why now? And what is diorama anyway?' />
+    <author>
+      <name>Laramie Crocker</name>
+      <uri>http://www.blogger.com/profile/13171574722648945764</uri>
+      <email>noreply@blogger.com</email>
+      <gd:extendedProperty xmlns:gd='http://schemas.google.com/g/2005' name='OpenSocialUserId' value='08696956980219785916' />
+    </author>
+    <thr:total>1</thr:total>
+  </entry>
+</feed>

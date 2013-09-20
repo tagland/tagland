@@ -1,0 +1,18 @@
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.0//EN"
+        "http://google-web-toolkit.googlecode.com/svn/releases/2.0/distro-source/core/src/gwt-module.dtd">
+<module rename-to="AnarchiaAuthorApp">
+
+    <!-- Inherit the core Web Toolkit stuff.                  -->
+    <inherits name='com.google.gwt.user.User'/>
+
+   <inherits name='us.anarchia.obj'/>
+
+
+    <!-- Specify the app entry point class.                   -->
+    <entry-point class='us.anarchia.gwt.anarchiaAuthorApp.client.AnarchiaAuthorApp'/>
+
+
+    <!-- Specify the app servlets.                   -->
+    <servlet path='/AnarchiaAuthorAppService' class='us.anarchia.gwt.anarchiaAuthorApp.server.AnarchiaAuthorAppServiceImpl'/>
+
+</module>

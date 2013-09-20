@@ -1,0 +1,27 @@
+Metadata : {
+
+	UID: "",              ## System-generated
+	Dates : {
+		Created: "",
+		LastModified: "",
+	},
+	Version: "",
+	Name : "", 
+	CanonicalPath : "",    ## Where the item is supposed to live, e.g. http://archive.org/foo/bar/123
+	MimeType : "",
+	Authors : {},
+	ProximityLink: {
+		LeadingChars: "THEQUICKBROWNFOX",
+		TrailingChars: "OVERTHELAZYDOG",        #Note: these aid in a "proximity search". 
+												#You add up all the characters in a document, in a giant, uppercased, squozen string.
+												# Any punctuation is skipped. Then the search string, being the word you are looking for,
+												# is searched for, and resulting finds are matched in in a fuzzy way to the sum of
+												#    LeadingChars+SEARCH+TrailingChars
+												# this fuzzy search lines up the two strings and assigns some sort of bucket weight for 
+												# each letter:
+												THEQUICKBROWNFOXJUMPSOVERTHELAZYDOG												
+												THESNIKBROWNFOXJUMPSOVERALAZYDOG
+												# humans probably do this by a pair of siding												
+}
+
+	

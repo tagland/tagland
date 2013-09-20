@@ -1,0 +1,20 @@
+<project name="dynamide" default="compile">
+
+    <!-- pull in the User's environment -->
+    <property environment="myenv"  />
+    
+     <property name="out.dir" value="out/lib"/>
+     <property name="classes.dir" value="out/production/tagland"/>
+     <property name="anarchiaObjsJar" value="out/lib/anarchiaObjs.jar"/>
+
+
+  <target name="jar" >
+    <delete file="${anarchiaObjsJar}" />
+    <jar
+         jarfile="${anarchiaObjsJar}"
+         basedir="${classes.dir}"
+         includes="us/anarchia/obj/**/*.class"
+         />
+  </target>
+  
+  </project>

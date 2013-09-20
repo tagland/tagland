@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/anarchia-obj/anarchia-obj.iml" filepath="$PROJECT_DIR$/anarchia-obj/anarchia-obj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/anarchi-obj/anarchia-obj.iml" filepath="$PROJECT_DIR$/anarchi-obj/anarchia-obj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/anarchiaAuthor/anarchiaAuthor.iml" filepath="$PROJECT_DIR$/anarchiaAuthor/anarchiaAuthor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tagland.iml" filepath="$PROJECT_DIR$/tagland.iml" />
+    </modules>
+  </component>
+</project>
+

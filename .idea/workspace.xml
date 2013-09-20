@@ -1,0 +1,1687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="anarchiaAuthor:GWT" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/java/us/anarchia/AnarchiaDBMain.java" description="storeAnarchia" line="133" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/BeanProperties.java" line="126" />
+    <bookmark url="file://$PROJECT_DIR$/src/java/org/tagland/spaces/MenuManager.java" line="49" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/RetroPanel.java" description="fireOnText" line="165" mnemonic="4" />
+    <bookmark url="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/BeanProperties.java" description="fieldsToRows" line="43" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/CellEditorMapping.java" line="23" mnemonic="5" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="0d43c792-e257-435a-b583-2fa1f8603340" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="tagland.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel url="file://$PROJECT_DIR$/src/java/org/tagland" />
+    <rightPanel url="file://$PROJECT_DIR$/src/java/org/tagland" />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+    <option name="REVERSE_PATCH" value="false" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/editors/ObjectPicker.java" line="121" class="org.tagland.retro.gui.editors.ObjectPicker" package="org.tagland.retro.gui.editors">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/designers/PropertyRow.java" line="63" class="org.tagland.retro.gui.designers.PropertyRow" package="org.tagland.retro.gui.designers">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/BeanProperties.java" line="47" class="org.tagland.retro.gui.BeanProperties" package="org.tagland.retro.gui">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/editors/ArrayEditor.java" line="56" class="org.tagland.retro.gui.editors.ArrayEditor" package="org.tagland.retro.gui.editors">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/editors/ArrayEditor.java" line="31" class="org.tagland.retro.gui.editors.ArrayEditor" package="org.tagland.retro.gui.editors">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/editors/ArrayEditor.java" line="40" class="org.tagland.retro.gui.editors.ArrayEditor" package="org.tagland.retro.gui.editors">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/CellEditorMapping.java" line="49" class="org.tagland.retro.gui.CellEditorMapping" package="org.tagland.retro.gui">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/java/us/anarchia/AnarchiaDBMain.java" line="138" class="us.anarchia.AnarchiaDBMain" package="us.anarchia">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/anarchiaAuthor/src/us/anarchia/gwt/anarchiaAuthorApp/client/AnarchiaAuthorApp.java" line="18" class="us.anarchia.gwt.anarchiaAuthorApp.client.AnarchiaAuthorApp" package="us.anarchia.gwt.anarchiaAuthorApp.client">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/anarchiaAuthor/src/us/anarchia/gwt/anarchiaAuthorApp/client/AnarchiaAuthorApp.java" line="19" class="us.anarchia.gwt.anarchiaAuthorApp.client.AnarchiaAuthorApp" package="us.anarchia.gwt.anarchiaAuthorApp.client">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/anarchiaAuthor/src/us/anarchia/gwt/anarchiaAuthorApp/client/AnarchiaAuthorApp.java" line="28" class="us.anarchia.gwt.anarchiaAuthorApp.client.AnarchiaAuthorApp$1" package="us.anarchia.gwt.anarchiaAuthorApp.client">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/anarchiaAuthor/src/us/anarchia/gwt/anarchiaAuthorApp/client/AnarchiaAuthorAppService.java" line="19" class="us.anarchia.gwt.anarchiaAuthorApp.client.AnarchiaAuthorAppService.App" package="us.anarchia.gwt.anarchiaAuthorApp.client">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/anarchiaAuthor/src/us/anarchia/gwt/anarchiaAuthorApp/client/AnarchiaAuthorAppService.java" line="22" class="us.anarchia.gwt.anarchiaAuthorApp.client.AnarchiaAuthorAppService.App" package="us.anarchia.gwt.anarchiaAuthorApp.client">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/anarchiaAuthor/src/us/anarchia/gwt/anarchiaAuthorApp/server/AnarchiaAuthorAppServiceImpl.java" line="13" class="us.anarchia.gwt.anarchiaAuthorApp.server.AnarchiaAuthorAppServiceImpl" package="us.anarchia.gwt.anarchiaAuthorApp.server">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <breakpoint_any>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties>
+      <property name="line_breakpoints_groupByMethods" value="false" />
+      <property name="line_breakpoints_viewId" value="TABLE" />
+      <property name="exception_breakpoints_flattenPackages" value="true" />
+      <property name="method_breakpoints_flattenPackages" value="true" />
+      <property name="field_breakpoints_flattenPackages" value="true" />
+      <property name="exception_breakpoints_groupByMethods" value="false" />
+      <property name="line_breakpoints_groupByClasses" value="true" />
+      <property name="method_breakpoints_viewId" value="TABLE" />
+      <property name="field_breakpoints_groupByMethods" value="false" />
+      <property name="line_breakpoints_flattenPackages" value="true" />
+      <property name="field_breakpoints_groupByClasses" value="true" />
+      <property name="method_breakpoints_groupByClasses" value="true" />
+      <property name="exception_breakpoints_viewId" value="TABLE" />
+      <property name="exception_breakpoints_groupByClasses" value="true" />
+      <property name="field_breakpoints_viewId" value="TABLE" />
+      <property name="method_breakpoints_groupByMethods" value="false" />
+    </ui_properties>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="tagland">
+      <favorite_root url="org.tagland.retro.gui.editors.ObjectPicker void actionPerformed(java.awt.event.ActionEvent event)" module="tagland" type="method" klass="com.intellij.ide.favoritesTreeView.smartPointerPsiNodes.MethodSmartPointerNode" />
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="AnarchiaAuthorApp.gwt.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anarchiaAuthor/src/us/anarchia/gwt/anarchiaAuthorApp/AnarchiaAuthorApp.gwt.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="41" selection-start="337" selection-end="372" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnarchiaAuthorAppServiceAsync.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anarchiaAuthor/src/us/anarchia/gwt/anarchiaAuthorApp/client/AnarchiaAuthorAppServiceAsync.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="92" selection-start="250" selection-end="315" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnarchiaAuthorAppService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anarchiaAuthor/src/us/anarchia/gwt/anarchiaAuthorApp/client/AnarchiaAuthorAppService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="91" selection-start="452" selection-end="518" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnarchiaAuthorApp.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anarchiaAuthor/src/us/anarchia/gwt/anarchiaAuthorApp/client/AnarchiaAuthorApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="124" selection-start="929" selection-end="1139" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnarchiaAuthorAppServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anarchiaAuthor/src/us/anarchia/gwt/anarchiaAuthorApp/server/AnarchiaAuthorAppServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="4" selection-start="365" selection-end="415" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notes.xhtml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/doc/notes.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="136" column="7" selection-start="5583" selection-end="5583" vertical-scroll-proportion="0.8089172">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anarchiaAuthor/war/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="61" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnarchiaDB.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anarchiaAuthor/src/us/anarchia/db/AnarchiaDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="13" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
+    <option name="UPDATE_CHANGES_POLICY" value="STASH" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/java/org/tagland/spaces/MenuManager.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/java/us/anarchia/obj/Storable.java" />
+        <option value="$PROJECT_DIR$/src/java/us/anarchia/obj/Metadata.java" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/retro/gui/RetroMain.java" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/spaces/BeanshellCommand.java" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/spaces/Sandbox.java" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/spaces/Command.java" />
+        <option value="$PROJECT_DIR$/base/data/tagland.org/menus/Laramie.menu" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/spaces/Space.java" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/spaces/Menu.java" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/spaces/ICommand.java" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/spaces/MenuManager.java" />
+        <option value="$PROJECT_DIR$/src/java/us/anarchia/obj/StorableComposite.java" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/retro/gui/dialogs/ExceptionDialog.java" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/retro/gui/editors/JTextFieldEditor.java" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/retro/gui/editors/CopyrightPicker.java" />
+        <option value="$PROJECT_DIR$/src/java/us/anarchia/Anarchia.java" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/retro/gui/designers/PropertyTableModel.java" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/retro/gui/editors/EnumerationEditor.java" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/util/Tools.java" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/retro/gui/designers/PropertyRow.java" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/util/ArrayTools.java" />
+        <option value="$PROJECT_DIR$/src/java/us/anarchia/obj/Copyright.java" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/retro/gui/editors/StringEditor.java" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/retro/gui/editors/IEditor.java" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/retro/gui/editors/ObjectPicker.java" />
+        <option value="$PROJECT_DIR$/www/img/notes.txt" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/retro/gui/editors/ArrayEditor.java" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/retro/gui/BeanProperties.java" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/retro/gui/CellEditorMapping.java" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/retro/gui/editors/AbstractEditor.java" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/retro/gui/editors/ListEditor.java" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/retro/gui/editors/MapEditor.java" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/retro/gui/designers/PropertyPage.java" />
+        <option value="$PROJECT_DIR$/src/java/us/anarchia/obj/Author.java" />
+        <option value="$PROJECT_DIR$/src/java/us/anarchia/gwt/client/AnarchiaGWTProject.java" />
+        <option value="$PROJECT_DIR$/anarchia-gwt/src/us/anarchia/gwtApp/AnarchiaApp.gwt.xml" />
+        <option value="$PROJECT_DIR$/anarchia-gwt/src/us/anarchia/gwtApp/client/GreetingServiceAsync.java" />
+        <option value="$PROJECT_DIR$/anarchia-gwt/src/us/anarchia/gwtApp/server/GreetingServiceImpl.java" />
+        <option value="$PROJECT_DIR$/anarchia-gwt/src/us/anarchia/gwtApp/client/AnarchiaService.java" />
+        <option value="$PROJECT_DIR$/anarchia-gwt/src/us/anarchia/gwtApp/client/AnarchiaServiceAsync.java" />
+        <option value="$PROJECT_DIR$/anarchia-gwt/src/us/anarchia/gwtApp/server/AnarchiaServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/java/us/anarchia/gwt/client/GreetingServiceAsync.java" />
+        <option value="$PROJECT_DIR$/src/java/us/anarchia/gwt/server/GreetingServiceImpl.java" />
+        <option value="$PROJECT_DIR$/anarchia-gwt/src/us/anarchia/gwtApp/client/AnarchiaApp.java" />
+        <option value="$PROJECT_DIR$/anarchiaAuthor/war/AnarchiaAuthorApp.html" />
+        <option value="$PROJECT_DIR$/anarchiaAuthor/src/us/anarchia/gwt/anarchiaAuthorApp/client/AnarchiaAuthorAppServiceAsync.java" />
+        <option value="$PROJECT_DIR$/anarchiaAuthor/src/us/anarchia/gwt/anarchiaAuthorApp/client/AnarchiaAuthorAppService.java" />
+        <option value="$PROJECT_DIR$/anarchi-obj/src/us/anarchia/obj.gwt.xml" />
+        <option value="$PROJECT_DIR$/anarchiaAuthor/src/us/anarchia/gwt/anarchiaAuthorApp/AnarchiaAuthorApp.gwt.xml" />
+        <option value="$PROJECT_DIR$/anarchi-obj/src/us/anarchia/obj/Storable.java" />
+        <option value="$PROJECT_DIR$/anarchi-obj/src/us/anarchia/obj/Link.java" />
+        <option value="$PROJECT_DIR$/src/java/us/anarchia/ObjectDBMain.java" />
+        <option value="$PROJECT_DIR$/src/java/us/anarchia/AnarchiaDBMain.java" />
+        <option value="$PROJECT_DIR$/src/java/org/tagland/retro/gui/RetroPanel.java" />
+        <option value="$PROJECT_DIR$/src/java/us/anarchia/util/StorageID.java" />
+        <option value="$PROJECT_DIR$/anarchiaAuthor/src/us/anarchia/gwt/anarchiaAuthorApp/client/AnarchiaAuthorApp.java" />
+        <option value="$PROJECT_DIR$/anarchiaAuthor/src/us/anarchia/db/AnarchiaDB.java" />
+        <option value="$PROJECT_DIR$/anarchiaAuthor/src/us/anarchia/gwt/anarchiaAuthorApp/server/AnarchiaAuthorAppServiceImpl.java" />
+        <option value="$PROJECT_DIR$/doc/notes.xhtml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="snapshotUpdatePolicy" value="DO_NOT_UPDATE" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_INTERNAL" />
+  </component>
+  <component name="ModuleEditorState">
+    <option name="LAST_EDITED_MODULE_NAME" />
+    <option name="LAST_EDITED_TAB_NAME" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="false" />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages ProjectPane="false" />
+      <abbreviatePackageNames />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tagland" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tagland" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tagland" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tagland" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tagland" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="doc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tagland" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tagland" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anarchia-obj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Favorites" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="Errors" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="false" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="build.xml" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.45856875" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.tagland.retro.gui.editors" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/anarchiaAuthor/war/WEB-INF/lib" />
+      <recent name="C:\tagland\src\java\org\tagland\retro\gui\designers" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="org.tagland.retro.gui.org.tagland.retro.gui" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.tagland.retro.gui" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\tagland\base\data\tagland.org" />
+      <recent name="C:\tagland\base" />
+    </key>
+  </component>
+  <component name="RunManager" selected="GWT Configuration.AnarchiaAuthorApp">
+    <configuration default="false" name="BeanProperties" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" />
+      <option name="MAIN_CLASS_NAME" value="org.tagland.retro.gui.BeanProperties" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="tagland" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58310" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PropertyPage" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" />
+      <option name="MAIN_CLASS_NAME" value="org.tagland.retro.gui.designers.PropertyPage" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="tagland" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59188" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RetroMain" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="org.tagland.retro.gui.RetroMain" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="tagland" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60619" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ArrayEditor" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" />
+      <option name="MAIN_CLASS_NAME" value="org.tagland.retro.gui.editors.ArrayEditor" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="tagland" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53717" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GWT.ConfigurationType" factoryName="GWT Configuration">
+      <module name="" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="false" name="AnarchiaDBMain -clean -initdb -storeAnarchia" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" />
+      <option name="MAIN_CLASS_NAME" value="us.anarchia.AnarchiaDBMain" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="-clean -initdb -storeAnarchia" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="tagland" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60069" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AnarchiaDBMain -testmenu" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" />
+      <option name="MAIN_CLASS_NAME" value="us.anarchia.AnarchiaDBMain" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="-storeAnarchia -readMenus -testmenu" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="tagland" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AnarchiaDBMain -readMenus (re-read menus from xml file)" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" />
+      <option name="MAIN_CLASS_NAME" value="us.anarchia.AnarchiaDBMain" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="-readMenus" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="tagland" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="anarchia-gwt" type="GWT.ConfigurationType" factoryName="GWT Configuration">
+      <module name="tagland" />
+      <option name="RUN_PAGE" value="AnarchiaGWTProject.html" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AnarchiaApp" type="GWT.ConfigurationType" factoryName="GWT Configuration">
+      <module name="anarchia-gwt" />
+      <option name="RUN_PAGE" value="AnarchiaApp.html" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AnarchiaAuthorApp" type="GWT.ConfigurationType" factoryName="GWT Configuration" editBeforeRun="true">
+      <module name="anarchiaAuthor" />
+      <option name="RUN_PAGE" value="AnarchiaAuthorApp.html" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62496" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method>
+        <option name="BuildArtifacts" enabled="true" />
+      </method>
+    </configuration>
+    <list size="11">
+      <item index="0" class="java.lang.String" itemvalue="Application.BeanProperties" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PropertyPage" />
+      <item index="2" class="java.lang.String" itemvalue="Application.RetroMain" />
+      <item index="3" class="java.lang.String" itemvalue="Application.AnarchiaDBMain -clean -initdb -storeAnarchia" />
+      <item index="4" class="java.lang.String" itemvalue="Application.AnarchiaDBMain -testmenu" />
+      <item index="5" class="java.lang.String" itemvalue="Application.AnarchiaDBMain -readMenus (re-read menus from xml file)" />
+      <item index="6" class="java.lang.String" itemvalue="Application.EnumerationEditor" />
+      <item index="7" class="java.lang.String" itemvalue="Application.ArrayEditor" />
+      <item index="8" class="java.lang.String" itemvalue="GWT Configuration.anarchia-gwt" />
+      <item index="9" class="java.lang.String" itemvalue="GWT Configuration.AnarchiaApp" />
+      <item index="10" class="java.lang.String" itemvalue="GWT Configuration.AnarchiaAuthorApp" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value="SHOW_INHERITED,ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration" maxAnnotateRevisions="500">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <configuration useDefault="true">$USER_HOME$/.subversion_IDEA</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/anarchiaAuthor" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/anarchiaAuthor" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/anarchia-obj" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/anarchia-obj" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d43c792-e257-435a-b583-2fa1f8603340" name="Default" comment="" />
+      <created>1303621768750</created>
+      <updated>1303621768750</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="4" y="22" width="1596" height="978" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32790697" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24902976" sideWeight="0.67209303" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.84069765" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Script Monkey" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.32906976" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="8" y="90" width="1546" height="283" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3255814" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33829236" sideWeight="0.24186046" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21396251" sideWeight="0.41289592" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988358" sideWeight="0.67209303" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984476" sideWeight="0.67209303" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24062096" sideWeight="0.14651163" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.60056925" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.90930235" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="4" y="22" width="1596" height="978" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3511628" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8534884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922202" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24951519" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="BeanShell Box" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="JComboBox now used for EnumerationEditor, and ArrayEditor.  Enums and Arrays work." />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Checking in from laramielap, snow-leopard mac; IDEA project files." />
+    <MESSAGE value="JComboBox now used for EnumerationEditor, and ArrayEditor.  Enums and Arrays work." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/java/us/anarchia/AuthorCtl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/us/anarchia/AnarchiaCtl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/RowListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/spaces/Space.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="10" selection-start="3301" selection-end="3301" vertical-scroll-proportion="1.4759036" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/spaces/CDataSourceConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="84" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/spaces/InputObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="443" selection-end="443" vertical-scroll-proportion="0.3906977" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/spaces/Sandbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="18" selection-start="4296" selection-end="4296" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/classes.jar!/javax/swing/table/DefaultTableCellRenderer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="19" selection-start="1851" selection-end="1851" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/spaces/BeanshellCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="614" selection-end="614" vertical-scroll-proportion="0.31618568" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/spaces/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="15" selection-start="823" selection-end="823" vertical-scroll-proportion="0.41154328" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/spaces/ICommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="42" selection-start="548" selection-end="559" vertical-scroll-proportion="0.45671266" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/designers/IPropertyRow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="0.10926829" />
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/classes.jar!/javax/swing/JTable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1030" column="0" selection-start="49252" selection-end="49252" vertical-scroll-proportion="20.333334" />
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/classes.jar!/javax/swing/KeyStroke.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="81" selection-start="262" selection-end="262" vertical-scroll-proportion="0.26666668" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/dialogs/ExceptionDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="100" selection-start="1063" selection-end="1063" vertical-scroll-proportion="1.4150077" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/spaces/MenuManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="18" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.32312405" />
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/ui.jar!/apple/awt/CToolkit.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="243" column="19" selection-start="12242" selection-end="12242" vertical-scroll-proportion="0.4" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/designers/IDesignerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="59" selection-end="59" vertical-scroll-proportion="0.05328259" />
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/classes.jar!/java/lang/Class.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="229" column="15" selection-start="11642" selection-end="11642" vertical-scroll-proportion="9.671191" />
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/ui.jar!/com/apple/laf/AquaComboBoxUI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="19" selection-start="2374" selection-end="2374" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/editors/AuthorPicker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/classes.jar!/javax/swing/table/TableCellEditor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="159" selection-end="159" vertical-scroll-proportion="0.13820335" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/editors/IEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="9" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/designers/PropertyTableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="0" selection-start="1600" selection-end="1600" vertical-scroll-proportion="0.040229887" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/README.TXT">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="108" selection-start="3547" selection-end="3547" vertical-scroll-proportion="0.7936508" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/img/notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/ui.jar!/com/apple/laf/AquaTableUI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="20" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.48918268" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/editors/EnumerationEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="-0.08173077" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/editors/CopyrightPicker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="462" selection-end="462" vertical-scroll-proportion="0.18028846" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/designers/PropertyRow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="1739" selection-end="1739" vertical-scroll-proportion="0.03052503" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/BeanProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="410" selection-end="410" vertical-scroll-proportion="0.03052503" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/util/ArrayTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="117" selection-end="117" vertical-scroll-proportion="0.09014423" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/util/Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="67" selection-end="67" vertical-scroll-proportion="0.09014423" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="44" selection-end="44" vertical-scroll-proportion="0.120192304" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/designers/Enumeration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="115" selection-end="115" vertical-scroll-proportion="0.18028846" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/editors/StringEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/editors/ArrayEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="317" selection-end="317" vertical-scroll-proportion="0.18028846" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/editors/Picker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="22" selection-start="154" selection-end="154" vertical-scroll-proportion="0.18028846" />
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/classes.jar!/com/sun/xml/internal/bind/v2/runtime/reflect/Accessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="24" selection-start="2870" selection-end="2870" vertical-scroll-proportion="-0.5873016" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/designers/IDesigner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="17" selection-start="728" selection-end="728" vertical-scroll-proportion="0.120192304" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/RetroMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="13" selection-start="1454" selection-end="1454" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/editors/ObjectPicker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="140" column="42" selection-start="5143" selection-end="5143" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/designers/PropertyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="29" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/editors/ListEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/editors/MapEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/editors/AbstractEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="11" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/CellEditorMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="2244" selection-end="2244" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/us.anarchia.obj">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>us.anarchia.obj</OriginalElement>
+          <nodes>
+            <node x="191.99999999999994" y="170.0">us.anarchia.obj.Frame</node>
+            <node x="408.99999999999994" y="170.0">us.anarchia.obj.ImageGroup</node>
+            <node x="377.74999999999994" y="0.0">us.anarchia.obj.Storable</node>
+            <node x="287.99999999999994" y="170.0">us.anarchia.obj.Copyright</node>
+            <node x="547.0" y="170.0">us.anarchia.obj.Date</node>
+            <node x="761.0" y="74.0">us.anarchia.obj.Link</node>
+            <node x="480.24999999999994" y="80.0">us.anarchia.obj.Metadata</node>
+            <node x="90.99999999999994" y="170.0">us.anarchia.obj.Author</node>
+            <node x="612.0" y="75.0">us.anarchia.obj.AdNasty</node>
+            <node x="0.0" y="170.0">us.anarchia.obj.Panel</node>
+            <node x="384.24999999999994" y="80.0">us.anarchia.obj.Image</node>
+            <node x="204.24999999999994" y="80.0">us.anarchia.obj.StorableComposite</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="us.anarchia.obj.Copyright" target="us.anarchia.obj.StorableComposite">
+              <point x="0.0" y="-15.0" />
+              <point x="338.49999999999994" y="150.0" />
+              <point x="297.5833333333333" y="150.0" />
+              <point x="13.333333333333371" y="15.0" />
+            </edge>
+            <edge source="us.anarchia.obj.Image" target="us.anarchia.obj.Storable">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="us.anarchia.obj.Date" target="us.anarchia.obj.StorableComposite">
+              <point x="0.0" y="-15.0" />
+              <point x="579.5" y="130.0" />
+              <point x="350.91666666666663" y="130.0" />
+              <point x="66.66666666666669" y="15.0" />
+            </edge>
+            <edge source="us.anarchia.obj.ImageGroup" target="us.anarchia.obj.StorableComposite">
+              <point x="0.0" y="-15.0" />
+              <point x="467.99999999999994" y="140.0" />
+              <point x="324.24999999999994" y="140.0" />
+              <point x="40.0" y="15.0" />
+            </edge>
+            <edge source="us.anarchia.obj.Metadata" target="us.anarchia.obj.Storable">
+              <point x="0.0" y="-15.0" />
+              <point x="528.75" y="55.0" />
+              <point x="451.91666666666663" y="55.0" />
+              <point x="29.666666666666686" y="15.0" />
+            </edge>
+            <edge source="us.anarchia.obj.StorableComposite" target="us.anarchia.obj.Storable">
+              <point x="0.0" y="-15.0" />
+              <point x="284.24999999999994" y="55.0" />
+              <point x="392.58333333333326" y="55.0" />
+              <point x="-29.666666666666657" y="15.0" />
+            </edge>
+            <edge source="us.anarchia.obj.AdNasty" target="us.anarchia.obj.Storable">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="us.anarchia.obj.Panel" target="us.anarchia.obj.StorableComposite">
+              <point x="0.0" y="-15.0" />
+              <point x="35.5" y="130.0" />
+              <point x="217.58333333333326" y="130.0" />
+              <point x="-66.66666666666669" y="15.0" />
+            </edge>
+            <edge source="us.anarchia.obj.Link" target="us.anarchia.obj.Storable">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="us.anarchia.obj.Author" target="us.anarchia.obj.StorableComposite">
+              <point x="0.0" y="-15.0" />
+              <point x="131.49999999999994" y="140.0" />
+              <point x="244.24999999999994" y="140.0" />
+              <point x="-40.0" y="15.0" />
+            </edge>
+            <edge source="us.anarchia.obj.Frame" target="us.anarchia.obj.StorableComposite">
+              <point x="0.0" y="-15.0" />
+              <point x="229.99999999999994" y="150.0" />
+              <point x="270.91666666666663" y="150.0" />
+              <point x="-13.333333333333314" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="306.0" y="138.0" />
+          <SelectedNodes>
+            <node>us.anarchia.obj.Link</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="72" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.6610577" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/us/anarchia/Pilot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="35" selection-end="35" vertical-scroll-proportion="0.060096152" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportToHTML/us/anarchia/Anarchia.java.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anarchiaAuthor/war/AnarchiaAuthorApp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="81" selection-start="978" selection-end="978" vertical-scroll-proportion="0.46741855" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/us/anarchia/gui/AnarchiaCellEditorMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="240" selection-end="240" vertical-scroll-proportion="0.21033654" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/us/anarchia/Anarchia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="623" selection-end="623" vertical-scroll-proportion="0.03052503" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anarchia-obj/src/us/anarchia/obj/Frame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="465" selection-end="465" vertical-scroll-proportion="0.30525032" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anarchia-obj/src/us/anarchia/obj/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="414" selection-end="414" vertical-scroll-proportion="0.24420024" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anarchia-obj/src/us/anarchia/obj/Copyright.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="413" selection-end="413" vertical-scroll-proportion="0.21367522" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anarchia-obj/src/us/anarchia/obj/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="13" selection-start="813" selection-end="813" vertical-scroll-proportion="0.33333334" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anarchia-obj/src/us/anarchia/obj/AdNasty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="413" selection-end="413" vertical-scroll-proportion="0.21367522" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anarchia-obj/src/us/anarchia/obj.gwt.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="19" selection-start="74" selection-end="74" vertical-scroll-proportion="0.06265664" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anarchia-obj/anarchia-obj.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anarchia-obj/src/us/anarchia/obj/StorableComposite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anarchia-obj/src/us/anarchia/obj/Panel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anarchia-obj/src/us/anarchia/obj/Metadata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="16" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anarchia-obj/src/us/anarchia/obj/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="414" selection-end="414" vertical-scroll-proportion="0.24420024" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anarchia-obj/src/us/anarchia/obj/ImageGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="465" selection-end="465" vertical-scroll-proportion="0.30525032" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/us/anarchia/AnarchiaDBMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="0" selection-start="4210" selection-end="4210" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/org/tagland/retro/gui/RetroPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="12" selection-start="2720" selection-end="2720" vertical-scroll-proportion="0.18149039" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/us/anarchia/ObjectDBMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="59" selection-start="3481" selection-end="3481" vertical-scroll-proportion="-3.7619047" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anarchia-obj/src/us/anarchia/obj/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="616" selection-end="616" vertical-scroll-proportion="0.33577535" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anarchia-obj/src/us/anarchia/obj/Storable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="469" selection-end="469" vertical-scroll-proportion="0.30525032" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/us/anarchia/util/StorageID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="40" selection-start="242" selection-end="242" vertical-scroll-proportion="0.18028846" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anarchiaAuthor/src/us/anarchia/gwt/anarchiaAuthorApp/AnarchiaAuthorApp.gwt.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="41" selection-start="337" selection-end="372" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anarchiaAuthor/src/us/anarchia/gwt/anarchiaAuthorApp/client/AnarchiaAuthorAppServiceAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="92" selection-start="250" selection-end="315" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anarchiaAuthor/src/us/anarchia/gwt/anarchiaAuthorApp/client/AnarchiaAuthorAppService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="91" selection-start="452" selection-end="518" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anarchiaAuthor/src/us/anarchia/gwt/anarchiaAuthorApp/client/AnarchiaAuthorApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="124" selection-start="929" selection-end="1139" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anarchiaAuthor/src/us/anarchia/gwt/anarchiaAuthorApp/server/AnarchiaAuthorAppServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="4" selection-start="365" selection-end="415" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anarchiaAuthor/war/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="61" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anarchiaAuthor/src/us/anarchia/db/AnarchiaDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/notes.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="7" selection-start="5583" selection-end="5583" vertical-scroll-proportion="0.8089172">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="artifact" />
+              <type id="javaee-facet-resources" />
+              <type id="jpa-descriptors" />
+              <type id="library" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>webapparchv</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions />
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (anarchiaAuthor)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Android 2.2 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|anarchiaAuthor</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>anarchiaAuthor-lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions />
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

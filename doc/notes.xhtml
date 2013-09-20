@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Development Notes for Tagland</title>
+    <style>
+        .topic {
+          white-space: pre;
+          font-family: monospace;
+          display: block;
+        }
+    </style>
+</head>
+<body onLoad="doOnLoad()">
+
+<h2>Getting the Source Code</h2>
+<div class="topic">
+    sourceforge project:
+        http://sourceforge.net/projects/tagland/
+</div>
+
+<h2>Admin</h2>
+<div class="topic">
+    Using svn to do project admin tasks on sourceforge:
+        ssh -t laramiec,tagland@shell.sourceforge.net create
+        
+    Using sftp to update the sourceforge project webpage:
+        cd /c/tagland/www
+        sftp laramiec,tagland@web.sourceforge.net
+        cd htdocs
+        put index.html
+</div>
+
+<h2>Project Layout</h2>
+<div class="topic">
+    mains:
+        To run the editor with property pages, look here:
+            org.tagland.retro.gui.Editor :: main()
+
+        Main GUI:
+            RetroMain >> RetroPanel >> Editor.showPropertyPageForObject(author);
+
+
+    classes:
+        PropertyPage IS_A JPanel
+        EditorRow -- Handles mapping a property of a Java object to an editable format.
+        LoboFrame -- a browser in a JFrame.  Wrapper provides a navigate() method.
+
+    
+</div>
+
+<h2>Object Design</h2>
+<div class="topic">
+    PropertyPage
+        PropertyTableModel
+            PropertyRow[]
+                IEditor
+                    getComponent()
+
+
+    PropertyPage:
+        IS_A:     JFrame and JPanel (depending on how you ask)
+        IS_A:     IDesigner         (can be called from an IEditor, or can be called from a main)
+        HAS_A:    IEditor per row
+
+        PropertyTableModel  -- used to communicate with the JTable GUI widget.
+            PropertyRow -- objects for each field, getter, setter, though these should be coalesced.
+
+            contains definition for:
+                TableCellEditorImpl extends AbstractCellEditor implements TableCellEditor
+
+
+    IEditor: interface that means you know how to edit a bean property
+        A Picker is also an IEditor.  When clicked, the Picker launches an IDesigner
+
+    IDesigner: interface that means you know how to introspect, design, or create an object
+               and show a dialog for that object.
+
+            There are three styles of creating a Designer:
+              1) you create a PropertyPage and tell it its designedObject, as a java bean.
+                 This generically operates on fields, getters, and setters.
+              2) you create a specialized Designer that can modify its designedObject
+              3) you create a specialized Designer that can be a factory for its designedObject.
+            PropertyPage.getPropertyPageFrame() is the first of these variants.
+
+      Anarchia Source:
+           Created a GWT module in IDEA, and this is checked in as of June 18, 2011 into tagland.sourceforge.net
+           But there were problems getting that project to deploy because there is no ant script, and the IDEA facets don't
+              seem to work.  I have an open support question to IntelliJ.
+           I then created a module that works (service, rpc, gwt form, db4o data persisence) in Eclipse,
+              and this runs in hosted mode and deploys to tomcat.  Just zip up the war directory and unzip
+              in webapps/ROOT.  I zipped up the code and eclipse project, and copied it up here:
+                  <a href="http://tagland.org/src/">http://tagland.org/src/</a>
+
+</div>
+
+<h2>Links</h2>
+<div class="topic" id="myDivId">
+
+    <a href="http://code.google.com/p/dynatree/">jquery dynatree</a>
+    <a href="http://wwwendt.de/tech/dynatree/doc/samples.html">jquery dynatree examples</a>
+    Dynatree will handle form elements (composite components, etc., in the tree.  See the examle here:
+       <a href="http://wwwendt.de/tech/dynatree/doc/samples.html">Samples</a> then click in "Large Nodes" then "Form elements".
+       these are loaded through LI elements.  Not sure how to do this programmatically.
+    <a href="http://ajaxian.com/archives/jstree-jquery-based-javascript-tree-component">jstree</a>
+
+    <a href="http://www.programmingsolution.net/useful-js/jquery-treeview.php">jQuery Trees Roundup</a>
+
+    <a href="http://json.org/">json.org</a> Resources for dealing with JSON.
+   <h3>jQuery</h3>
+    <a href="http://www.w3schools.com/jquery/jquery_selectors.asp">w3schools on jquery</a>
+
+    <a href="http://api.jquery.com/jQuery.ajax/">http://api.jquery.com/jQuery.ajax/</a>
+    <a href="http://docs.jquery.com/How_jQuery_Works">http://docs.jquery.com/How_jQuery_Works</a>
+    <a href="http://docs.jquery.com/Tutorials:AJAX_and_Events">http://docs.jquery.com/Tutorials:AJAX_and_Events</a>
+
+    <h3>Google GWT</h3>
+    <a href="http://gwt.google.com/samples/Showcase/Showcase.html#!CwCellTree">GWT CellTree</a>
+    <a href="http://code.google.com/webtoolkit/gettingstarted.html">Getting started</a>
+    <a href="http://code.google.com/webtoolkit/tools/gwtdesigner/wizards/gwt/remoteservice.html">GWT RemoteService Wizard</a>
+
+    <a href="http://www.jetbrains.com/idea/features/gwt.html">IntelliJ GWT</a>
+    <a href=""></a>
+
+</div>
+
+  <script type="text/javascript">
+      function doOnLoad(){
+        var myDivElement = $('#myDivId');   //requires jQuery, but we did not pull in jQuery, above.
+        alert("myDivElement: "+myDivElement);
+      }
+</script>
+</body>
+
+</html>

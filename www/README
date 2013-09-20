@@ -1,0 +1,7 @@
+This directory is for sync'ing with sourceforge's project web.
+
+ cd /Users/laramie/src/tagland/www
+ 
+ sftp laramiec,tagland@web.sourceforge.net 
+ cd  /home/user-web/tagland/htdocs
+ 
